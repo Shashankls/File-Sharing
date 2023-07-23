@@ -12,10 +12,10 @@ OWNER_ID = os.environ['OWNER_ID']
 #Button
 START_BUTTONS=[
     [
-        InlineKeyboardButton('Source', url='https://github.com/X-Gorn/File-Sharing'),
-        InlineKeyboardButton('Project Channel', url='https://t.me/xTeamBots'),
+        InlineKeyboardButton('ALL NEW MOVIES 🥰', url='https://t.me/+I8SnDgfPDCc1MDM1'),
+        InlineKeyboardButton('MOVIE REQUEST GROUP😍', url='https://t.me/+XTOX5WcV-_MzNzhl'),
     ],
-    [InlineKeyboardButton('Author', url="https://t.me/xgorn")],
+    
 ]
 
 # Running bot
