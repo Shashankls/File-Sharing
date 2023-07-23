@@ -12,7 +12,7 @@ OWNER_ID = os.environ['OWNER_ID']
 #Button
 START_BUTTONS=[
     [
-        InlineKeyboardButton('ALL NEW MOVIES 🥰', url='https://t.me/+I8SnDgfPDCc1MDM1'),
+        InlineKeyboardButton('ALL NEW MOVIES 🥰', url='https://t.me/+I8SnDgfPDCc1MDM1')],[
         InlineKeyboardButton('MOVIE REQUEST GROUP😍', url='https://t.me/+XTOX5WcV-_MzNzhl'),
     ],
     
@@ -84,7 +84,7 @@ async def _startfile(bot, update):
 # Help msg
 @xbot.on_message(filters.command('help') & filters.private)
 async def _help(bot, update):
-    await update.reply_text("Supported file types:\n\n- Video\n- Audio\n- Photo\n- Document\n- Sticker\n- GIF\n- Voice note\n- Video note\n\n If bot didn't respond, contact @xgorn", True)
+    await update.reply_text("Supported file types:\n\n- Video\n- Audio\n- Photo\n- Document\n- Sticker\n- GIF\n- Voice note\n- Video note\n\n If bot didn't respond, contact @Srikanth18", True)
 
 
 async def __reply(update, copied):
